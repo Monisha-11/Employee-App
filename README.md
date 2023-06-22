@@ -21,7 +21,7 @@
 
  ### SPRING BOOT:
  ### Employee.java:
- java
+ ```java
 package com.saveetha.employee.emp;
 import jakarta.persistence.*;
 import java.time.LocalDate;
@@ -76,11 +76,11 @@ public class Employee {
                 '}';
     }
 }
-
+```
 
 
 ### EmployeeController.java:
-java
+```java
 package com.saveetha.employee.emp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -108,12 +108,12 @@ public class EmployeeController {
     }
 }
 
-
+```
 
 ### REACT CODES:
 
 ### App.js:
-js
+```js
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
@@ -147,9 +147,9 @@ function App() {
 
 export default App;
 
-
+```
 ### EmployeeDirectoryComponent.js:
-js
+```js
 import React, { useEffect, useState } from 'react';
 import './EmployeeDirectoryComponent.css'; 
 
@@ -186,10 +186,10 @@ function EmployeeDirectoryComponent() {
 };
 
 export default EmployeeDirectoryComponent;
-
+```
 
 ### EmployeeRegistrationComponent.js:
-js
+```js
 import React, { useState } from "react";
 import './EmployeeRegistrationComponent.css'
 
@@ -249,9 +249,9 @@ function EmployeeRegistrationComponent() {
 
 export default EmployeeRegistrationComponent;
 
-
+```
 ### EmployeeDeletionComponent.js:
-js
+```js
 import React, { useState } from 'react';
 import './EmployeeDeletionComponent.css'
 function EmployeeDeletionComponent() {
@@ -297,7 +297,7 @@ function EmployeeDeletionComponent() {
 
 export default EmployeeDeletionComponent;
 
-
+```
 
  ## OUTPUT:
 
